@@ -1,0 +1,22 @@
+# {{title}}
+
+{{#if breadcrumbs}}
+## Breadcrumbs
+{{#each breadcrumbs}} [{{title}}]({{href}}){{/each}}
+{{/if}}
+
+{{#if pageGroups}}
+## Page Groups
+{{#each pageGroups}}
+* [{{title}}]({{href}})
+{{/each}}
+{{/if}}
+
+{{#if pages}}
+## Pages
+
+{{#each pages}}
+* [{{title}}]({{href}})
+{{/each}}
+
+{{/if}}
